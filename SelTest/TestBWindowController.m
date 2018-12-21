@@ -7,6 +7,7 @@
 //
 
 #import "TestBWindowController.h"
+#import "LDWindonwControllerManager.h"
 
 @interface TestBWindowController ()
 
@@ -18,6 +19,15 @@
     [super windowDidLoad];
     
     // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
+}
+- (void)close {
+    [super close];
+    if ([self windowShouldClose:self.window]) {
+        [[LDWindonwControllerManager sharedManager] removeController:self];
+    }
+}
+- (BOOL)windowShouldClose:(id)sender {
+    return YES;
 }
 
 - (IBAction)closeWindow:(id)sender {

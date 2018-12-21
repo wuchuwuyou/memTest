@@ -10,6 +10,7 @@
 #import "Anm.h"
 #import "TestAWindowController.h"
 #import "TestBWindowController.h"
+#import "LDWindonwControllerManager.h"
 
 
 
@@ -22,6 +23,8 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     TestAWindowController *a = [[TestAWindowController alloc] initWithWindowNibName:@"TestAWindowController"];
     [a showWindow:nil];
+    [[LDWindonwControllerManager sharedManager] addController:a];
+
 }
 /*
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {

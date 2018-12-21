@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)addController:(NSWindowController *)c;
 - (void)removeController:(NSWindowController *)c;
 
+- (id)controllerWithClass:(Class)cl;
+
 @property (nonatomic,strong,readonly) NSMutableSet *controllerSet;
 
 @end

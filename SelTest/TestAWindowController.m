@@ -8,6 +8,7 @@
 
 #import "TestAWindowController.h"
 #import "TestBWindowController.h"
+#import "LDWindonwControllerManager.h"
 
 @interface TestAWindowController () <NSWindowDelegate>
 
@@ -28,7 +29,12 @@
 }
 
 - (void)close {
-    [super close];
+//    [super close];
+    if ([self windowShouldClose:self.window]) {
+        [[LDWindonwControllerManager sharedManager] removeController:self];
+    }else {
+        [[NSApplication sharedApplication] hide:nil];
+    }
 }
 - (BOOL)windowShouldClose:(id)sender {
     return NO;
@@ -39,5 +45,6 @@
 - (IBAction)pushB:(id)sender {
     TestBWindowController *b = [[TestBWindowController alloc] initWithWindowNibName:@"TestBWindowController"];
     [b showWindow:nil];
+    [[LDWindonwControllerManager sharedManager] addController:b];
 }
 @end

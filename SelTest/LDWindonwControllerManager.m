@@ -40,18 +40,28 @@
 }
 - (void)removeController:(NSWindowController *)c {
     NSLog(@"%@ %@",NSStringFromClass([self class]),NSStringFromSelector(_cmd));
-    BOOL windowShouldClose = YES;
-    if ([c.window.delegate respondsToSelector:@selector(windowShouldClose:)]) {
-        windowShouldClose = [c.window.delegate windowShouldClose:c.window];
-    }
-    if (!windowShouldClose) {
-        NSLog(@"该页面不能关闭，不释放该windowController %@",c);
-        return;
-    }
+//    BOOL windowShouldClose = YES;
+//    if ([c.window.delegate respondsToSelector:@selector(windowShouldClose:)]) {
+//        windowShouldClose = [c.window.delegate windowShouldClose:c.window];
+//    }
+//    if (!windowShouldClose) {
+//        NSLog(@"该页面不能关闭，不释放该windowController %@",c);
+//        return;
+//    }
     
     NSLog(@"before remove %@",self.controllerSet);
     [self.controllerSet removeObject:c];
     NSLog(@"after remove %@",self.controllerSet);
+}
+- (id)controllerWithClass:(Class)cl {
+    id wc = nil;
+    [self.controllerSet enumerateObjectsUsingBlock:^(id  _Nonnull obj, BOOL * _Nonnull stop) {
+        if ([obj isKindOfClass:cl]) {
+//            wc = obj;
+            *stop = YES;
+        }
+    }];
+    return wc;
 }
 - (void)clear {
     NSLog(@"%@ %@",NSStringFromClass([self class]),NSStringFromSelector(_cmd));
