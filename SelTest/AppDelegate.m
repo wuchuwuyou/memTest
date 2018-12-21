@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "Anm.h"
+#import "TestAWindowController.h"
+#import "TestBWindowController.h"
 
 
 
@@ -17,7 +19,11 @@
 @end
 
 @implementation AppDelegate
-
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    TestAWindowController *a = [[TestAWindowController alloc] initWithWindowNibName:@"TestAWindowController"];
+    [a showWindow:nil];
+}
+/*
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
 //    Anm *a = [[Anm alloc] init];
@@ -89,4 +95,5 @@
     NSLog(@"return:%@",obj);
     return obj;
 }
+ */
 @end
