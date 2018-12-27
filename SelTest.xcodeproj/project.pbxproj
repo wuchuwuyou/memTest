@@ -12,6 +12,17 @@
 		0D8CDDD821CC8D3600D163BE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D8CDDD621CC8D3600D163BE /* MainMenu.xib */; };
 		0D8CDDDB21CC8D3600D163BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CDDDA21CC8D3600D163BE /* main.m */; };
 		0D8CDDE421CC8E2D00D163BE /* Anm.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CDDE321CC8E2D00D163BE /* Anm.m */; };
+		0DD78E6C21D52C0600D204AF /* TestBWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD78E6421D52C0600D204AF /* TestBWindowController.m */; };
+		0DD78E6D21D52C0600D204AF /* LDWindonwControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD78E6621D52C0600D204AF /* LDWindonwControllerManager.m */; };
+		0DD78E6E21D52C0600D204AF /* TestAWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DD78E6721D52C0600D204AF /* TestAWindowController.xib */; };
+		0DD78E6F21D52C0600D204AF /* NSWindowController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD78E6921D52C0600D204AF /* NSWindowController+Swizzling.m */; };
+		0DD78E7021D52C0600D204AF /* TestBWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DD78E6A21D52C0600D204AF /* TestBWindowController.xib */; };
+		0DD78E7121D52C0600D204AF /* TestAWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD78E6B21D52C0600D204AF /* TestAWindowController.m */; };
+		0DD78E7521D52C4200D204AF /* WKWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD78E7421D52C4200D204AF /* WKWindowController.m */; };
+		0DD78E7921D52C5C00D204AF /* WKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD78E7721D52C5C00D204AF /* WKViewController.m */; };
+		0DD78E7A21D52C5C00D204AF /* WKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DD78E7821D52C5C00D204AF /* WKViewController.xib */; };
+		0DD78E7E21D52FC200D204AF /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 0DD78E7C21D52FC200D204AF /* index.js */; };
+		0DD78E7F21D52FC200D204AF /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 0DD78E7D21D52FC200D204AF /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +36,23 @@
 		0D8CDDDC21CC8D3600D163BE /* SelTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SelTest.entitlements; sourceTree = "<group>"; };
 		0D8CDDE221CC8E2D00D163BE /* Anm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Anm.h; sourceTree = "<group>"; };
 		0D8CDDE321CC8E2D00D163BE /* Anm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Anm.m; sourceTree = "<group>"; };
+		0DD78E6221D52C0600D204AF /* LDWindonwControllerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDWindonwControllerManager.h; path = SelTest/LDWindonwControllerManager.h; sourceTree = SOURCE_ROOT; };
+		0DD78E6321D52C0600D204AF /* TestAWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestAWindowController.h; path = SelTest/TestAWindowController.h; sourceTree = SOURCE_ROOT; };
+		0DD78E6421D52C0600D204AF /* TestBWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestBWindowController.m; path = SelTest/TestBWindowController.m; sourceTree = SOURCE_ROOT; };
+		0DD78E6521D52C0600D204AF /* NSWindowController+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSWindowController+Swizzling.h"; path = "SelTest/NSWindowController+Swizzling.h"; sourceTree = SOURCE_ROOT; };
+		0DD78E6621D52C0600D204AF /* LDWindonwControllerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDWindonwControllerManager.m; path = SelTest/LDWindonwControllerManager.m; sourceTree = SOURCE_ROOT; };
+		0DD78E6721D52C0600D204AF /* TestAWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestAWindowController.xib; path = SelTest/TestAWindowController.xib; sourceTree = SOURCE_ROOT; };
+		0DD78E6821D52C0600D204AF /* TestBWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestBWindowController.h; path = SelTest/TestBWindowController.h; sourceTree = SOURCE_ROOT; };
+		0DD78E6921D52C0600D204AF /* NSWindowController+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSWindowController+Swizzling.m"; path = "SelTest/NSWindowController+Swizzling.m"; sourceTree = SOURCE_ROOT; };
+		0DD78E6A21D52C0600D204AF /* TestBWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestBWindowController.xib; path = SelTest/TestBWindowController.xib; sourceTree = SOURCE_ROOT; };
+		0DD78E6B21D52C0600D204AF /* TestAWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestAWindowController.m; path = SelTest/TestAWindowController.m; sourceTree = SOURCE_ROOT; };
+		0DD78E7321D52C4200D204AF /* WKWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWindowController.h; sourceTree = "<group>"; };
+		0DD78E7421D52C4200D204AF /* WKWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWindowController.m; sourceTree = "<group>"; };
+		0DD78E7621D52C5C00D204AF /* WKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKViewController.h; sourceTree = "<group>"; };
+		0DD78E7721D52C5C00D204AF /* WKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKViewController.m; sourceTree = "<group>"; };
+		0DD78E7821D52C5C00D204AF /* WKViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WKViewController.xib; sourceTree = "<group>"; };
+		0DD78E7C21D52FC200D204AF /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		0DD78E7D21D52FC200D204AF /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +85,9 @@
 		0D8CDDD021CC8D3400D163BE /* SelTest */ = {
 			isa = PBXGroup;
 			children = (
+				0DD78E7B21D52F9A00D204AF /* source */,
+				0DD78E7221D52C1300D204AF /* WKViewController */,
+				0DD78E6121D52BE900D204AF /* WindowControllerManager */,
 				0D8CDDD121CC8D3400D163BE /* AppDelegate.h */,
 				0D8CDDD221CC8D3400D163BE /* AppDelegate.m */,
 				0D8CDDE221CC8E2D00D163BE /* Anm.h */,
@@ -68,6 +99,44 @@
 				0D8CDDDC21CC8D3600D163BE /* SelTest.entitlements */,
 			);
 			path = SelTest;
+			sourceTree = "<group>";
+		};
+		0DD78E6121D52BE900D204AF /* WindowControllerManager */ = {
+			isa = PBXGroup;
+			children = (
+				0DD78E6221D52C0600D204AF /* LDWindonwControllerManager.h */,
+				0DD78E6621D52C0600D204AF /* LDWindonwControllerManager.m */,
+				0DD78E6521D52C0600D204AF /* NSWindowController+Swizzling.h */,
+				0DD78E6921D52C0600D204AF /* NSWindowController+Swizzling.m */,
+				0DD78E6321D52C0600D204AF /* TestAWindowController.h */,
+				0DD78E6B21D52C0600D204AF /* TestAWindowController.m */,
+				0DD78E6721D52C0600D204AF /* TestAWindowController.xib */,
+				0DD78E6821D52C0600D204AF /* TestBWindowController.h */,
+				0DD78E6421D52C0600D204AF /* TestBWindowController.m */,
+				0DD78E6A21D52C0600D204AF /* TestBWindowController.xib */,
+			);
+			path = WindowControllerManager;
+			sourceTree = "<group>";
+		};
+		0DD78E7221D52C1300D204AF /* WKViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0DD78E7321D52C4200D204AF /* WKWindowController.h */,
+				0DD78E7421D52C4200D204AF /* WKWindowController.m */,
+				0DD78E7621D52C5C00D204AF /* WKViewController.h */,
+				0DD78E7721D52C5C00D204AF /* WKViewController.m */,
+				0DD78E7821D52C5C00D204AF /* WKViewController.xib */,
+			);
+			path = WKViewController;
+			sourceTree = "<group>";
+		};
+		0DD78E7B21D52F9A00D204AF /* source */ = {
+			isa = PBXGroup;
+			children = (
+				0DD78E7D21D52FC200D204AF /* index.html */,
+				0DD78E7C21D52FC200D204AF /* index.js */,
+			);
+			path = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,8 +196,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD78E7F21D52FC200D204AF /* index.html in Resources */,
+				0DD78E7021D52C0600D204AF /* TestBWindowController.xib in Resources */,
 				0D8CDDD521CC8D3600D163BE /* Assets.xcassets in Resources */,
 				0D8CDDD821CC8D3600D163BE /* MainMenu.xib in Resources */,
+				0DD78E7E21D52FC200D204AF /* index.js in Resources */,
+				0DD78E6E21D52C0600D204AF /* TestAWindowController.xib in Resources */,
+				0DD78E7A21D52C5C00D204AF /* WKViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +213,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD78E6C21D52C0600D204AF /* TestBWindowController.m in Sources */,
 				0D8CDDE421CC8E2D00D163BE /* Anm.m in Sources */,
+				0DD78E6F21D52C0600D204AF /* NSWindowController+Swizzling.m in Sources */,
+				0DD78E7921D52C5C00D204AF /* WKViewController.m in Sources */,
 				0D8CDDDB21CC8D3600D163BE /* main.m in Sources */,
 				0D8CDDD321CC8D3400D163BE /* AppDelegate.m in Sources */,
+				0DD78E7521D52C4200D204AF /* WKWindowController.m in Sources */,
+				0DD78E6D21D52C0600D204AF /* LDWindonwControllerManager.m in Sources */,
+				0DD78E7121D52C0600D204AF /* TestAWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +374,7 @@
 				CODE_SIGN_ENTITLEMENTS = SelTest/SelTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = SelTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

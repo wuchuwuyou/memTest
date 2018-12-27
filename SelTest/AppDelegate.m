@@ -12,7 +12,8 @@
 #import "TestBWindowController.h"
 #import "LDWindonwControllerManager.h"
 
-
+#import "WKViewController/WKViewController.h"
+#import "WKViewController/WKWindowController.h"
 
 @interface AppDelegate ()
 
@@ -20,12 +21,29 @@
 @end
 
 @implementation AppDelegate
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    TestAWindowController *a = [[TestAWindowController alloc] initWithWindowNibName:@"TestAWindowController"];
-    [a showWindow:nil];
-    [[LDWindonwControllerManager sharedManager] addController:a];
 
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    WKViewController *viewController = [[WKViewController alloc]initWithNibName:@"WKViewController" bundle:nil];
+    
+    NSWindowStyleMask styleMask = NSWindowStyleMaskTitled | NSWindowStyleMaskClosable;
+    NSRect rect = NSMakeRect(0, 0, 400, 200);
+    NSWindow *window = [[NSWindow alloc]initWithContentRect:rect styleMask:styleMask backing:NSBackingStoreBuffered defer:YES];
+    window.contentViewController = viewController;
+    
+    WKWindowController *wkWC = [[WKWindowController alloc] initWithWindow:window];
+    window.delegate = wkWC;
+    [wkWC.window center];
+    [wkWC.window orderFront:nil];
+    [[LDWindonwControllerManager sharedManager] addController:wkWC];
 }
+
+
+//- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+//    TestAWindowController *a = [[TestAWindowController alloc] initWithWindowNibName:@"TestAWindowController"];
+//    [a showWindow:nil];
+//    [[LDWindonwControllerManager sharedManager] addController:a];
+//
+//}
 /*
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
