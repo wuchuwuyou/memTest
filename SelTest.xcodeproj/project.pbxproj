@@ -12,6 +12,12 @@
 		0D8CDDD821CC8D3600D163BE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D8CDDD621CC8D3600D163BE /* MainMenu.xib */; };
 		0D8CDDDB21CC8D3600D163BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CDDDA21CC8D3600D163BE /* main.m */; };
 		0D8CDDE421CC8E2D00D163BE /* Anm.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CDDE321CC8E2D00D163BE /* Anm.m */; };
+		0D8CDDE721CCEFB400D163BE /* LDWindonwControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CDDE621CCEFB400D163BE /* LDWindonwControllerManager.m */; };
+		0D8CDDEA21CCF09100D163BE /* NSWindowController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CDDE921CCF09100D163BE /* NSWindowController+Swizzling.m */; };
+		0D8CDDEE21CCF41200D163BE /* TestAWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CDDEC21CCF41200D163BE /* TestAWindowController.m */; };
+		0D8CDDEF21CCF41200D163BE /* TestAWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D8CDDED21CCF41200D163BE /* TestAWindowController.xib */; };
+		0D8CDDF321CCF42300D163BE /* TestBWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CDDF121CCF42300D163BE /* TestBWindowController.m */; };
+		0D8CDDF421CCF42300D163BE /* TestBWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D8CDDF221CCF42300D163BE /* TestBWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +31,16 @@
 		0D8CDDDC21CC8D3600D163BE /* SelTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SelTest.entitlements; sourceTree = "<group>"; };
 		0D8CDDE221CC8E2D00D163BE /* Anm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Anm.h; sourceTree = "<group>"; };
 		0D8CDDE321CC8E2D00D163BE /* Anm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Anm.m; sourceTree = "<group>"; };
+		0D8CDDE521CCEFB400D163BE /* LDWindonwControllerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDWindonwControllerManager.h; sourceTree = "<group>"; };
+		0D8CDDE621CCEFB400D163BE /* LDWindonwControllerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDWindonwControllerManager.m; sourceTree = "<group>"; };
+		0D8CDDE821CCF09100D163BE /* NSWindowController+Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSWindowController+Swizzling.h"; sourceTree = "<group>"; };
+		0D8CDDE921CCF09100D163BE /* NSWindowController+Swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSWindowController+Swizzling.m"; sourceTree = "<group>"; };
+		0D8CDDEB21CCF41200D163BE /* TestAWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAWindowController.h; sourceTree = "<group>"; };
+		0D8CDDEC21CCF41200D163BE /* TestAWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAWindowController.m; sourceTree = "<group>"; };
+		0D8CDDED21CCF41200D163BE /* TestAWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestAWindowController.xib; sourceTree = "<group>"; };
+		0D8CDDF021CCF42300D163BE /* TestBWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBWindowController.h; sourceTree = "<group>"; };
+		0D8CDDF121CCF42300D163BE /* TestBWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBWindowController.m; sourceTree = "<group>"; };
+		0D8CDDF221CCF42300D163BE /* TestBWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestBWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +75,16 @@
 			children = (
 				0D8CDDD121CC8D3400D163BE /* AppDelegate.h */,
 				0D8CDDD221CC8D3400D163BE /* AppDelegate.m */,
+				0D8CDDE521CCEFB400D163BE /* LDWindonwControllerManager.h */,
+				0D8CDDE621CCEFB400D163BE /* LDWindonwControllerManager.m */,
+				0D8CDDE821CCF09100D163BE /* NSWindowController+Swizzling.h */,
+				0D8CDDE921CCF09100D163BE /* NSWindowController+Swizzling.m */,
+				0D8CDDEB21CCF41200D163BE /* TestAWindowController.h */,
+				0D8CDDEC21CCF41200D163BE /* TestAWindowController.m */,
+				0D8CDDED21CCF41200D163BE /* TestAWindowController.xib */,
+				0D8CDDF021CCF42300D163BE /* TestBWindowController.h */,
+				0D8CDDF121CCF42300D163BE /* TestBWindowController.m */,
+				0D8CDDF221CCF42300D163BE /* TestBWindowController.xib */,
 				0D8CDDE221CC8E2D00D163BE /* Anm.h */,
 				0D8CDDE321CC8E2D00D163BE /* Anm.m */,
 				0D8CDDD421CC8D3600D163BE /* Assets.xcassets */,
@@ -127,8 +153,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D8CDDF421CCF42300D163BE /* TestBWindowController.xib in Resources */,
 				0D8CDDD521CC8D3600D163BE /* Assets.xcassets in Resources */,
 				0D8CDDD821CC8D3600D163BE /* MainMenu.xib in Resources */,
+				0D8CDDEF21CCF41200D163BE /* TestAWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D8CDDE721CCEFB400D163BE /* LDWindonwControllerManager.m in Sources */,
+				0D8CDDEE21CCF41200D163BE /* TestAWindowController.m in Sources */,
 				0D8CDDE421CC8E2D00D163BE /* Anm.m in Sources */,
+				0D8CDDEA21CCF09100D163BE /* NSWindowController+Swizzling.m in Sources */,
 				0D8CDDDB21CC8D3600D163BE /* main.m in Sources */,
 				0D8CDDD321CC8D3400D163BE /* AppDelegate.m in Sources */,
+				0D8CDDF321CCF42300D163BE /* TestBWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
